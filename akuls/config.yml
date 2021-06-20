@@ -8,6 +8,10 @@ params:
         Picture: "dp.JPG"
         Title: Hi I'm Akul Santhosh.
         Content: I'm a Masters' student in Computer Science studying at NYU Courant.
+    
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
 
     # socialIcons: # optional
     #     - name: "<platform>"
@@ -16,5 +20,17 @@ params:
     #         url: "<link2>"
 
     ShowShareButtons: true
-
     custom_css: ["changes.css"]
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+        - identifier: posts
+          name: Posts
+          url: /posts/
+        - identifier: projects
+          name: Projects
+          url: /projects/
+
